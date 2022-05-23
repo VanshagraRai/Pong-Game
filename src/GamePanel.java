@@ -56,8 +56,8 @@ import javax.swing.*;
     }
     public void draw(Graphics g){
         paddle1.draw(g); // For drawing the paddle 1
-        paddle2.draw(g);
-        ball.draw(g);// for drawing the paddle 2
+        paddle2.draw(g);// for drawing the paddle 2
+        ball.draw(g); // For drawing the ball
 
     }
     public void move(){
